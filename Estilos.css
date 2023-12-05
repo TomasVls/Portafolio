@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 70px 15px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #add8e61d;
+    background-image: url("img/1366_2000.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+header h1 {
+    font-size: 40px;
+    background-color: rgba(182, 114, 25, 0.573);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(97, 219, 56);
+}
+
+header nav {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 5px;
+    color: rgb(202, 57, 57);
+    transition-duration: 0.5s;
+}
+
+header i {
+    margin-right: 7px;
+    font-size: 15px;
+    color: rgb(252, 231, 1);
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(42, 154, 32);
+    font-size: 20px;
+}
+
+/* Fin del Header */
+article h2, footer h2 {
+    color: rgb(32, 178, 170);
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    box-shadow: 0 0 100px #ee82ee;
+    background-color: #452c5f;
+}
+
+.Articulo1 img {
+    width: 400px;
+    margin-right: 450px;
+    border-radius: 100%;
+}
+
+.sobre_mi {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 20px 20px;
+}
+
+.sobre_mi_txt {
+    display: inline;
+    padding-top: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.sobre_mi_txt h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.sobre_mi_txt p {
+    font-weight: 500;
+}
+
+/* Fin de sobre mi */
+.Articulo2{
+    background-image: url("https://www.thomsonreuters.com.ar/content/dam/openweb/images/argentina/Artworked/16-9/cinco-tecnologias-disruptivas-que-cambiaran-los-modelos-de-negocio-depositphotos-215239928.jpg.transform/q90/image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Articulo2 img {
+    width: 70px;
+}
+
+.div1,.div2,.div3,.div4,.div5 {
+    display: flex;
+    justify-content: center;
+}
+
+.div0 img{
+    margin: 15px 40px;
+    
+}
+
+.Articulo2 h4 {
+    text-align: center;
+}
+/* Fin del articulo */
+ .footer{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+ }
+.footer a{
+    margin-right: 70px;
+    font-size: large;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
